@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root{
+    /* primary */
+        --White: hsl(0, 0%, 100%);
+        --LightPink: hsl(275, 100%, 97%);
+        --GrayishPurple: hsl(292, 16%, 49%);
+        --DarkPurple: hsl(292, 42%, 14%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    
+    background: var(--LightPink);
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.container{
+    background: var(--GrayishPurple);
+    width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container svg{
+    width: 100%;
+    position: relative;
+}
+  
+.container .section {  
+    background: var(--White);
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: -300px;
+    border-radius: .4rem;
+
+}
+
+.container .section .section-body{
+display: flex;
+height: 100%;
+/* background: blue; */
+width: 90%;
+margin: 0 auto;
+}
+
+.container .section .one, .two, .three, .four, .five, .six {
+    cursor: pointer;
+}
+
+.container .section .one{
+    display: flex;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+.container .section .one svg{
+    width: 10%;
+}
+
+
+.container .section .one h1{
+    /* background: orange; */
+    font-weight: 5000;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.container .section .two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.container .section .two svg{
+    /* background: pink; */
+    width: 10%;
+    
+}
+
+.container .section .three {
+    margin-bottom: 4%;
+}
+
+
+
+.container .section .four svg{
+    /* background: red; */
+    width: 10%;
+    
+}
+
+.container .section .four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.container .section .five svg{
+    width: 10%;
+}
+
+.container .section .five{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+
+.container .section .six svg{
+    width: 10%;
+}
+
+.container .section .six{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+
+@media screen and (min-height: 357px) {
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+    :root{
+        /* primary */
+            --White: hsl(0, 0%, 100%);
+            --LightPink: hsl(275, 100%, 97%);
+            --GrayishPurple: hsl(292, 16%, 49%);
+            --DarkPurple: hsl(292, 42%, 14%);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    body{
+        
+        background: var(--LightPink);
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    
+    .container{
+        background: var(--GrayishPurple);
+        width: 1440px;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    
+    .container svg{
+        width: 100%;
+        position: relative;
+    }
+      
+    .container .section {  
+        background: var(--White);
+        height: 400px;
+        width: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -130px;
+        margin-left: -300px;
+        border-radius: .4rem;
+    
+    }
+    
+    .container .section .section-body{
+    display: flex;
+    height: 100%;
+    /* background: blue; */
+    width: 90%;
+    margin: 0 auto;
+    }
+    
+    .container .section .one, .two, .three, .four, .five, .six {
+        cursor: pointer;
+    }
+    
+    .container .section .one{
+        display: flex;
+        padding-top: 4%;
+        margin-bottom: 4%;
+    }
+    .container .section .one svg{
+        width: 10%;
+    }
+    
+    
+    .container .section .one h1{
+        /* background: orange; */
+        font-weight: 5000;
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    
+    .container .section .two{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    
+    .container .section .two svg{
+        /* background: pink; */
+        width: 10%;
+        
+    }
+    
+    .container .section .three {
+        margin-bottom: 4%;
+    }
+    
+    
+    
+    .container .section .four svg{
+        /* background: red; */
+        width: 10%;
+        
+    }
+    
+    .container .section .four{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+    
+    .container .section .five svg{
+        width: 10%;
+    }
+    
+    .container .section .five{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        margin-bottom: 2%;
+        align-items: center;
+    }
+    
+    
+    .container .section .six svg{
+        width: 10%;
+    }
+    
+    .container .section .six{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+    }
+       
+}
